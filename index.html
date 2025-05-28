@@ -3,15 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Welcome to My GitHub Pages Site</title>
+  <title>Solomon - Telecom Engineer & Cloud Specialist</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
   <div class="container">
-    <h1>Hello from GitHub Pages 👋</h1>
-    <p>This site was deployed using GitHub Actions!</p>
-    <button onclick="showMessage()">Click Me</button>
-    <p id="message"></p>
+    <header>
+      <h1>Solomon Mutwiri</h1>
+      <h2>Telecommunication Engineer & Cloud Specialist</h2>
+    </header>
+
+    <section class="summary">
+      <h3><i class="fas fa-user-tie"></i> Professional Summary</h3>
+      <p>Highly skilled Telecommunication Engineer and cloud enthusiast with 2+ years of experience in building and scaling applications and services. Seeking opportunities to grow and create visibility in IT ecosystem.</p>
+    </section>
+
+    <section class="skills">
+      <h3><i class="fas fa-laptop-code"></i> Technical Skills</h3>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h4>Languages</h4>
+          <ul>
+            <li>Python scripting</li>
+            <li>PostgreSQL & Dbeaver</li>
+            <li>Bash scripting</li>
+            <li>Kubernetes</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h4>Network Platforms</h4>
+          <ul>
+            <li>AWS Cloud</li>
+            <li>Cisco IOS</li>
+            <li>TCP/IP network</li>
+            <li>Agile development</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h4>Protocols & Systems</h4>
+          <ul>
+            <li>VLANs, Tunnelling</li>
+            <li>BGP, OSPF</li>
+            <li>Wireless/Wired networks</li>
+            <li>LAN/WAN rollouts</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience">
+      <h3><i class="fas fa-briefcase"></i> Professional Experience</h3>
+      <div class="job">
+        <h4>Data Engineer Training - Luxds Academy</h4>
+        <p class="date">March 2025 - Present</p>
+        <ul>
+          <li>Build, maintain, and integrate data pipelines using SQL, Python, Apache Kafka, Airflow</li>
+          <li>Design and maintain data warehouses and databases</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h4>Department Lead (IT Services) - Online Jobs Connect</h4>
+        <p class="date">March 2022 - Present</p>
+        <ul>
+          <li>Improved network configurations efficiency by 30%</li>
+          <li>Automated network intrusion detection boosting security by 40%</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="education">
+      <h3><i class="fas fa-graduation-cap"></i> Education & Certifications</h3>
+      <ul>
+        <li>BSc Telecommunication & Information Eng (JKUAT)</li>
+        <li>AWS Certified Solutions Architect</li>
+        <li>Cisco Certified Network Administrator</li>
+        <li>Kubernetes and Cloud Native Associate (KCNA)</li>
+      </ul>
+    </section>
+
+    <footer>
+      <button onclick="contactMe()">Contact Me</button>
+      <p id="contact-info"></p>
+    </footer>
   </div>
   <script src="script.js"></script>
 </body>
